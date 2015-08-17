@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<string.h>
 
-unsigned char crc_calc(unsigned char* string, int length);
+#include "crc_calc.h"
 
 main()
 {
