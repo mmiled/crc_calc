@@ -12,6 +12,10 @@ main(int argc,char ** argv)
 		crc=crc_calc(argv[1],strlen(argv[1]));
 		printf("%02X\n",crc);
 	}
+	else
+	{
+		printf("erreur");
+	}
 }
 
 unsigned char crc_calc(unsigned char* string, int length)
