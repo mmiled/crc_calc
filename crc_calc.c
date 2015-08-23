@@ -14,7 +14,7 @@ main(int argc,char ** argv)
 	}
 	else
 	{
-		printf("erreur");
+		printf("erreur parametre\n");
 	}
 }
 
