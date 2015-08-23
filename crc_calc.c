@@ -28,3 +28,8 @@ unsigned char crc_calc(unsigned char* string, int length)
 
 	return crc;
 }
+
+int addition(int a,int b)
+{
+	return a+b;
+}
